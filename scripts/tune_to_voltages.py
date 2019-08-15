@@ -76,7 +76,7 @@ if nugx == nugy:
 else:
 	print "Try "+opt_method+" algorithm"
 	ini_a = np.array([vg,ug])
-	res = minimize(volt_root_2D, ini_a, method=opt_method)
+	res = minimize
 	v_out, u_out = res['x']
 	print "message: ",res['message']
 	
